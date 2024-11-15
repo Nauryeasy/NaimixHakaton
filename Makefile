@@ -1,11 +1,11 @@
 DC = docker-compose
 STORAGES_FILE = docker_compose/storages.yaml
 EXEC = docker exec -it
-DB_CONTAINER = lis_postgres_db
+DB_CONTAINER = naimix_postgres_db
 LOGS = docker logs
 ENV = --env-file .env
 APP_FILE = docker_compose/app.yaml
-APP_CONTAINER = lis-app
+APP_CONTAINER = naimix-app
 MANAGE_PY = python manage.py
 MONITORING_FILE = docker_compose/monitoring.yaml
 

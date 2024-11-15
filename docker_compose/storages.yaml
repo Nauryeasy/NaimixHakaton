@@ -3,13 +3,13 @@ version: '3.9'
 services:
   postgres:
     image: postgres:latest
-    container_name: lis_postgres_db
+    container_name: naimix_postgres_db
     ports:
       - "5432:5432"
     volumes:
-      - postgres_data_lis_app:/var/lib/postgresql/data
+      - postgres_data_naimix_app:/var/lib/postgresql/data
     env_file:
       - ../.env
 
 volumes:
-  postgres_data_lis_app:
+  postgres_data_naimix_app:
