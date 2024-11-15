@@ -15,7 +15,14 @@ punq = "^0.7.0"
 djangorestframework-api-key = "^3.0.0"
 djoser = "^2.2.3"
 django-cors-headers = "^4.4.0"
+pyswisseph = "^2.10.3.2"
+ipywidgets = "^8.1.5"
+pandas = "^2.2.3"
+swisseph = "^0.0.0.dev1"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]

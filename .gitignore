@@ -2,6 +2,7 @@ __pycache__/
 .env
 core/project/settings/local.py
 redis.conf
+venv/
 
 
 #Client
