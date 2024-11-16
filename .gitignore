@@ -3,7 +3,7 @@ __pycache__/
 core/project/settings/local.py
 redis.conf
 venv/
-# data/olympic/preprocessed_data.csv
+data/olympic/preprocessed_data.csv
 
 
 #Client
